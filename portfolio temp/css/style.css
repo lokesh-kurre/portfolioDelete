@@ -587,13 +587,13 @@ section.freelancer{
     display: none;
     
   }
-  /* section.services .card-wrapper {
+  section.services .card-wrapper {
     
     grid-template-columns: repeat(1, 1fr);
     
     grid-column-gap: 0;
     grid-row-gap: 3rem; 
-  } */
+  }
   section.services .card-wrapper .card {
     background: var(--pure);
     padding: 1rem 1rem;
@@ -641,7 +641,7 @@ section.freelancer{
   }
   .input-wrap{
    
-  grid-template-rows: repeat(1,1fr) ;
+  grid-template-rows: repeat(1, 1fr) ;
   grid-gap: 2rem;
   margin-bottom: 2rem;
   }
@@ -650,10 +650,10 @@ section.freelancer{
     overflow-x: hidden;
    
   }
-  .card{
+  /* .card{
    
     overflow-x: hidden;
-  }
+  } */
   section.contact .card-wrapper .card{
     margin: 0.1rem;
   }
