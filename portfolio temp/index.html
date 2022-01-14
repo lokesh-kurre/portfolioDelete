@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>my osm portfolio website</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+                                  <!-- Nav bar start -->
+    <div class="container">
+                   <!-- ////Hamberger -->
+         
+          <ul class="menu">
+            <li><a class="menuItem" href="#">Home</a></li>
+            <li><a class="menuItem" href="#">Profile</a></li>
+            <li><a class="menuItem" href="#">About</a></li>
+            <li><a class="menuItem" href="#">Contacts</a></li>
+          </ul>
+          <button class="hamburger">
+            
+            <i class="menuIcon material-icons">menu</i>
+            <i class="closeIcon material-icons">close</i>
+          </button>
+               <!-- hamberger end -->
+               
+      <nav class="flex items-center justify-between">
+
+        <div class="left flex items-center">
+          <div class="branding">
+            <img src="./images/logonew.png" style="width: 60px; height: 60px;" alt="" />
+          </div>
+          
+            <a href="#">Home</a>
+            <a href="#about1">About</a>
+            <a href="#service1">Services</a>
+            <a href="#">Pages</a>
+            <a href="#blogs1">Blog</a>
+          
+        </div>
+        <div class="right">
+          <button class="btn1 btn-primary" onclick="window.scrollTo(300, 5300);">contact</button>
+        </div>
+      </nav>
+      <br><br>
+      <br><br>
+                                       <!-- Nav-bar end -->
+
+
+
+
+
+                                      <!-- Home Section start -->
+
+      <div class="hero flex items-center justify-between">
+        <div class="right flex-1">
+          <h6>Hello, </h6>
+          <h1> I am a <br><span >Web Developer</span></br></h1>
+         
+
+          <p>
+            I like to build solid & scalable websites with great UX/UI user experience , and I love what I do.
+          </p>
+          <div>
+            <button class="btn2 btn-secondary" onclick="window.open('https://docs.google.com/document/d/1GpATUwLTnePqIkB204R8WPLlF_nCLjSBonWi0gntMnw/edit?usp=sharing')">DOWNLOAD CV</button>
+          </div>
+        </div>
+        <div class="left flex-1 flex justify-center">
+          <img src="./images/me2.png" alt="" />
+        </div>
+
+      </div>
+    </div>
+  </header>
+                                      <!-- Home Section end-->
+ 
+  
+                                   <!-- About Section start -->
+
+  <section class="about" id="about1">
+    <div class="container flex items-center">
+      <div class="flex-1">
+        <h1 >About <span>Me</span></h1>
+        <h3>Hello I'm Jack</h3>
+        <p>I am an award-winning full-stack web developer and UI/UX javascript specialist.
+          Check out my articles, React and React Native UI components at the code laboratory.
+          Feel free to take a look at my latest projects on the web portfolio page.
+        </p>
+        <div class="social" id="logoForRotation">
+          <a href="#"><img src="./images/global1.png" alt=""></a>
+          <a href="#"><img src="./images/facebook1.png" alt=""></a>
+          <a href="#"><img src="./images/twitter1.png" alt=""></a>
+          <a href="#"><img src="./images/instagram1.png" alt=""></a>
+        </div>
+      </div>
+      <div class="flex-1">
+        <img class="about-me-img" src="./images/me1.png" alt="">
+      </div>
+
+  </section>
+                              <!-- About Section end -->
+
+
+                            <!-- Our-Service section start -->
+  <section class="services" id="service1">
+    <div class="container">
+      <h1 class="section-heading"  ><span>Our</span> Services</h1>
+      <p style="color:rgb(99, 32, 32) ;">I can build scalable & beautiful web pages. I provide different services.</p>
+      <div class="card-wrapper">
+        <div class="card">
+          <img src="./images/full stack.png" alt="">
+          <h2>Web Developement</h2>
+          <p>Our website developers provide expert web application development
+            and web design services to our clients. We build responsive website
+            designs, which give good intranet experiences using the latest web technologies.</p>
+        </div>
+        <div class="card">
+          <img src="./images/ui.png" alt="">
+          <h2>UX/UI Design</h2>
+          <p>A decade in design has allowed our team to perfect the process of
+            delivering UI and UX services. We follow established design standards,
+            workflows, and guidelines — you get the product you need, delivered by
+            expert designers within the set timeframe.</p>
+        </div>
+        <div class="card">
+          <img src="./images/cloud service.png" alt="">
+          <h2>Cloud service</h2>
+          <p>Enhance your cloud infrastructure and run critical work loads like
+            VMware,Oracle,SUP,Build services that leverage Kubernets,Containers,
+            and other cloud native capabalities.
+          </p>
+        </div>
+        <div class="card">
+          <img src="./images/seo.png" alt="">
+          <h2>SEO</h2>
+          <p>Here we help you to rank your website on google. We optimize your website so that it is more readily found
+            online. SEO primarily focuses on improving a website’s rankings in
+            search engines like Google and BING. </p>
+        </div>
+        <div class="card">
+          <img src="./images/web security.png" alt="">
+          <h2>Web Security</h2>
+          <p> We will enhance security of your web page by secure web services,
+            enables enterprises to control access, protects users from threats,
+            and secures their sensitive data.</p>
+        </div>
+        <div class="card">
+          <img src="./images/backend (2).png" alt="">
+          <h2>Backend Developement</h2>
+          <p>Our skilled development team specializes in providing high-quality
+            backend services for various businesses. Our team of backend experts
+            has a deep knowledge and extensive experience in a wide range of
+            programming languages and technologies.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+                                 <!-- Our-Service section end-->
+
+
+                                 <!-- freelancer section start -->
+   <section class="freelancer">
+    <h1>I Am Available For Freelancer.</h1>
+    <p> I'm looking for more freelance job, I'm a 5 years experianced developer.<br>
+      If you are interested can contact me at the email or send me a message. You can download my CV from below. </p>
+    <button class="btn btn-primary" style="color: white;">
+      <h2 onclick="window.open('https://docs.google.com/document/d/1GpATUwLTnePqIkB204R8WPLlF_nCLjSBonWi0gntMnw/edit?usp=sharing')">Download</h2>
+    </button>
+  </section>
+                                   <!-- freelancer section end -->
+
+
+
+                                     <!-- Review section start -->
+  <section class="reviews">
+    <div class="container">
+      <div class="cu"><h1 class="section-heading"><span class="review1">Our happy customers<br></span><h1 class="insideh1">Says something</h1></h1></div>
+      <!-- <h1 class="section-heading"><span class="review1">Our happy customers<br></span><h1 class="insideh1">Says something</h1></h1> -->
+      <p>Our client list speaks for itself. Since our earliest days, we’ve
+        represented everything from start-ups to Fortune 500 companies with
+        that same partnership approach and dedication at the core of every
+        engagement. Every day, since 1996, we’ve been devoting our hearts and
+        minds to our clients, building lasting
+        relationships.</p>
+
+      <div class="slideshow-container" style="text-align: center;">
+
+        <div class="mySlides fade">
+
+          <img src="./images/lady1.jpg" style="width:20% ">
+          <div class="text">
+            <span>Kalorina markus,Company JHM</span><br>
+            <p>Greatest appreciation to you and your team for the outstanding
+              job you did for us. The website is just what we wanted, and we
+              were thrilled with the speed your team exercised. </p>
+          </div>
+        </div>
+
+        <div class="mySlides fade">
+
+          <img src="./images/client.png" style="width:20%">
+          <div class="text">
+            <span>Jhonathon Dosel,Company OPUS</span><br>
+            <p>Greatest appreciation to you and your team for the outstanding
+              job you did for us. The website is just what we wanted, and we
+              were thrilled with the speed your team exercised.</p>
+          </div>
+        </div>
+
+        <div class="mySlides fade">
+
+          <img src="./images/lady2.jpg" style="width:20%">
+          <div class="text">
+            <span>Rossy Stephen,Company DEFI</span>
+            <p>Greatest appreciation to you and your team for the outstanding
+              job you did for us. The website is just what we wanted, and we
+              were thrilled with the speed your team exercised. </p>
+
+          </div>
+        </div>
+
+        <br>
+
+        <div style="text-align:center">
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
+      </div>
+
+      <div class="slider-dots"></div>
+    </div>
+                                 <!-- Review section end -->
+
+
+
+                                 <!-- our-work section start -->
+    <section class="work">
+      <div class="container">
+        <h1 class="section-heading"><span>Our</span> Work</h1>
+        <!-- <p></p> --><br><br>
+        <div class="card-wrapper">
+         
+          <!-- //////Model window -->
+            <div class="card">
+            <div class="overlay ">
+             
+              <div class="container1">
+                <img src="./images/work11.png" style="max-width:300px;cursor:pointer;"
+               onclick="onClick(this)" class="modal-hover-opacity"> 
+              </div>
+            </div>
+            <img src="./images/work11.png" id="img1" alt="">
+          </div> 
+
+
+          <div class="card">
+            <div class="overlay">
+             
+              <div class="container1">
+                <img src="./images/work2.png" style="max-width:300px;cursor:pointer"
+              onclick="onClick(this)" class="modal-hover-opacity">
+              </div>
+            </div>
+            <img src="./images/work2.png" alt="">
+          </div>
+
+          <div class="card">
+            <div class="overlay">
+             
+              <div class="container1">
+                <img src="./images/work3.png" style="max-width:300px;cursor:pointer"
+              onclick="onClick(this)" class="modal-hover-opacity">
+              </div>
+            </div>
+            <img src="./images/work3.png" alt="">
+          </div>
+
+
+          <div class="card">
+            <div class="overlay">
+             
+              <div class="container1">
+                <img src="./images/work4.png" style="max-width:300px;cursor:pointer"
+              onclick="onClick(this)" class="modal-hover-opacity">
+              </div>
+            </div>
+            <img src="./images/work4.png" alt="">
+          </div>
+
+          <div class="card">
+            <div class="overlay">
+            
+              <div class="container1">
+                <img src="./images/work5.png" style="max-width:300px;cursor:pointer"
+              onclick="onClick(this)" class="modal-hover-opacity">
+              </div>
+            </div>
+            <img src="./images/work5.png" alt="">
+          </div>
+          <div class="card">
+            <div class="overlay">
+             
+              <div class="container1">
+                <img src="./images/work6.png" style="max-width:300px;cursor:pointer"
+              onclick="onClick(this)" class="modal-hover-opacity">
+              </div>
+            </div>
+            <img src="./images/work6.png" alt="">
+          </div> 
+
+      <div id="modal01" class="modal" onclick="this.style.display='none'">
+        <span class="close">&times;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+        <div class="modal-content">
+          <img id="img01" style="max-width:100%">
+        </div>
+      </div>
+          
+        </div>
+      </div>
+    </section>
+                          <!-- our-work section end -->
+
+
+
+
+                          <!-- blog section start -->
+    <section class="blog" id="blogs1">
+      <div class="container">
+        <h1 class="section-heading" ><span>Our popular</span> Blogs</h1>
+        <p>A successful business website requires proper care and feeding! Our blog
+           is where we share wisdom-nuggets on everything that goes into maintaining
+            a happy, healthy site.</p>
+        <div class="card-wrapper">
+          <div class="card">
+            <div class="img-wrapper">
+              <img src="./images/blog1.jpg" alt="">
+            </div>
+            <div class="card-content">
+              <a href="">
+                <h1>Why Web Security Is So Important.</h1>
+              </a>
+              <span>Nov 12, 2021</span>
+              <p>Web security is important to keeping hackers and cyber-thieves from
+                 accessing sensitive information.  Without a proactive security
+                  strategy, businesses risk the spread and escalation of malware,
+                   attacks on other websites, networks, and other IT infrastructures. 
+                   If a hacker is successful, attacks can spread from computer to
+                    computer, making it difficult to find the origin. </p>
+              <a href="https://strategynewmedia.com/why-web-security-is-important/">Read More</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="img-wrapper">
+              <img src="./images/blog2.jpg" alt="">
+            </div>
+            <div class="card-content">
+              <a href="">
+                <h1>How to Improve User Experience on Your Website</h1>
+              </a>
+              <span>Jan 3, 2022</span>
+              <p>It’s no secret that if you want to succeed in running a business, 
+                you need to provide your customers and clients with an amazing 
+                experience. Many
+                  of your customers will encounter your business online first, so
+                   every aspect of your website provides visitors with a fantastic
+                    user experience (UX).</p>
+              <a href="https://blog.hubspot.com/marketing/improve-your-websites-user-experience">Read More</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="img-wrapper">
+              <img src="./images/ph-1.png" alt="">
+            </div>
+            <div class="card-content">
+              <a href="">
+                <h1>What Is SEO & Why Is It Important?</h1>
+              </a>
+              <span>May 12, 2021</span>
+              <p>You’ve probably heard a hundred times that Search Engine Optimization
+                 (SEO) is a vital digital marketing tool. But do you really know how
+                  SEO works? Even if you have a basic understanding of what it entails,
+                   you may still not have a solid grasp on this complex and multifaceted
+                    process.</p>
+              <a href="https://digitalmarketinginstitute.com/blog/what-is-seo-and-why-is-it-important">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+                                <!-- blog section end -->
+
+
+                                <!-- contact us section starts -->
+    <section class="contact">
+      <div class="container">
+        <h1 class="section-heading">Contact <span>Us</span></h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, animi?</p>
+        <div class="card-wrapper">
+          <div class="card">
+            <img src="./images/smartphone.png" alt="">
+            <h2>Call Us On</h2>
+            <h6>+985 123 7856</h6>
+          </div>
+          <div class="card">
+            
+            <img src="./images/email.png" alt="">
+            <h2>Email Us On</h2>
+            <h6>supportus@companyname.com</h6>
+          </div>
+          <div class="card" id="card3">
+            <img src="./images/map.png" alt="">
+            <h2>Visit Office</h2>
+            <h6>Lorem ipsum dolor sit amet consectetur.</h6>
+          </div>
+        </div>
+        <form action="https://formsubmit.co/3e0b06c83236b971b01fa65429cd0ef7" method="POST"/>
+        
+          <div class="input-wrap">
+            
+            <input type="text"  name="name"  placeholder="Your name*" required ><br>
+            <input type="email" name="email" placeholder="Email Address" required >
+           
+          </div>
+          <div class="input-wrap-2">
+           
+            <input type="text" name="subject" placeholder="Subject" required>
+           
+            <textarea name="message" cols="30" rows="10" placeholder="Details of your problem" required></textarea>
+          </div>
+          <div class="btn-wrapper">
+        
+            <button class="btn btn-primary" onclick="window.location.href = '127.0.0.1:5500/thank.html';">Send message</button>
+          </div>
+        </form>
+      </div>
+    </section>
+                              <!-- contact us section end -->
+
+
+
+                                 <!-- footer start -->
+
+    <footer>
+      <img src="./images/logo.svg" alt="">
+      <div class="footer-socials">
+        <a href="https://www.google.com/"> <img src="./images/global1.png" alt=""></a>
+        <a href="https://www.facebook.com/"> <img src="./images/facebook1.png" alt=""></a>
+        <a href="https://twitter.com/explore"> <img src="./images/twitter1.png" alt=""></a>
+        <a href="https://www.instagram.com/?hl=en"> <img src="./images/instagram1.png" alt=""></a>
+      </div>
+      <div class="copyright">
+        copyright 2020 xyz. All Rights reserved
+      </div>
+    </footer>
+                                  <!-- footer end -->
+                                 
+
+                      
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./js/app.js"></script>
+    <script src="./js/client.js"></script>
+</body>
+
+</html>
